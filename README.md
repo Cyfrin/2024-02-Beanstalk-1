@@ -7,11 +7,11 @@
 
 ### Prize Pool
 
-- Total Pool - $90,000
-- H/M - $85,000
+- Total Pool - $100,000
+- H/M - $95,000
 - Low - $5,000
 - Starts: Monday, February 26, 2024
-- Ends: Monday, March 4, 2024
+- Ends: Monday, March 25, 2024
 
 ### Stats
 
