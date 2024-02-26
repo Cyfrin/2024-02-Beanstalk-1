@@ -167,8 +167,12 @@ npx hardhat test
 * The `enrootDeposits` functions do not properly emit ERC-1155 events.
     * `enrootDeposits` updates a user's Unripe Deposits' BDV and issues the corresponding Stalk to the user. The single `enrootDeposit` function correctly emits the ERC-1155 events, but the multiple variant incorrectly emits a `transferSingle` event to the 0 address for each Deposit. Given the Beanstalk subgraph does not use these events, and cannot be used to harm the protocol, the fix will be implmented in a separate upgrade to Beanstalk.
 
-* All findings in the following audit reports
-    * [Cyfrin's initial audit report of v0 of the Gauge System](https://arweave.net/tfK_IQlxz1lABDEq4aefN9gPQaynKZKYFvFyU8seYA8) (the version of the Gauge System in this Codehawks audit is substantially different, hence the need for another audit)
-    * [Cyfrin's initial Beanstalk report](https://arweave.net/JQodlB-9fil-OWfWOwYy6Q8eqWITJXtyaN5z_Anq1S0)
-    * All Beanstalk audit reports listed in this [repository](https://github.com/BeanstalkFarms/Beanstalk-Audits)
+* The  `SeasonFacet` contract is known to be too large to deploy on mainnet (due to `LibGerminate`). This will be fixed before the Seed Gauge System is deployed
 
+* All findings in the following audit reports
+    * [Cyfrin's initial audit report of v0 of the Gauge System](https://arweave.net/tfK_IQlxz1lABDEq4aefN9gPQaynKZKYFvFyU8seYA8) (the version of the Gauge System in this Codehawks audit is substantially different, hence the need for another audit);
+    * [Cyfrin's initial Beanstalk report](https://arweave.net/JQodlB-9fil-OWfWOwYy6Q8eqWITJXtyaN5z_Anq1S0);
+    * All Beanstalk audit reports listed in this [repository](https://github.com/BeanstalkFarms/Beanstalk-Audits); and
+    * All bug reports from the Immunefi program listed [here](https://community.bean.money/bug-reports).
+
+**Additional Known Issues as outlined here: [Additional Known Issues](https://github.com/Cyfrin/2024-02-Beanstalk-1/issues/1)**
