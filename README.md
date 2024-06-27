@@ -1,15 +1,13 @@
-# Beanstalk Codehawks
-<p align="center">
-<img src="https://res.cloudinary.com/droqoz7lg/image/upload/q_90/dpr_2.0/c_fill,g_auto,h_320,w_320/f_auto/v1/company/fsv4gpiuvkthl27oygeh?_a=BATAUVAA0" width="500" alt="Beanstalk">
-</p>
+# Beanstalk Part 1
 
-# Contest Details
+[//]: # (contest-details-open)
 
-### Prize Pool
+## Contest Details
 
-- Total Pool - $100,000
+Total Pool - $100,000
 - H/M - $95,000
 - Low - $5,000
+
 - Starts: Monday, February 26, 2024
 - Ends: Monday, March 25, 2024
 
@@ -48,6 +46,10 @@ You can read an overview of how Beanstalk works [here](https://docs.bean.money/a
     * Anyone who holds Fertilizer, the debt asset earned by participating in Beanstalk's recapitalization. Not particularly relevant for the scope of this audit.
 * Pod holder
     * Anyone who holds Pods, the Beanstalk-native debt asset. Pods are minting when lending Beans to Beanstalk (Sowing Beans). Not particularly relevant for the scope of this audit.
+
+[//]: # (contest-details-close)
+
+[//]: # (scope-open)
 
 ## Scope
 
@@ -136,7 +138,11 @@ Tokens:
 * ERC-20 (all are accepted in Farm balances, a whitelist is accepted on the Deposit Whitelist, etc.)
 * ERC-1155 (Fertilizer and Deposits are ERC-1155 tokens)
 
-## Setup
+[//]: # (scope-close)
+
+[//]: # (getting-started-open)
+
+## Getting Started
 
 Clone repo: 
 
@@ -162,6 +168,10 @@ Test:
 npx hardhat test
 ```
 
+[//]: # (getting-started-close)
+
+[//]: # (known-issues-open)
+
 ## Known Issues
 
 * The `enrootDeposits` functions do not properly emit ERC-1155 events.
@@ -176,3 +186,5 @@ npx hardhat test
     * All bug reports from the Immunefi program listed [here](https://community.bean.money/bug-reports).
 
 **Additional Known Issues as outlined here: [Additional Known Issues](https://github.com/Cyfrin/2024-02-Beanstalk-1/issues/1)**
+
+[//]: # (known-issues-close)
