@@ -1,7 +1,5 @@
 # Beanstalk Part 1
 
-[//]: # (contest-details-open)
-
 ## Contest Details
 
 Total Pool - $100,000
@@ -17,6 +15,8 @@ Total Pool - $100,000
 - Complexity Score: 3356
 - $/nSLOC: $15.58
 - $/Complexity: $26.82
+
+[//]: # (contest-details-open)
 
 ## About
 
